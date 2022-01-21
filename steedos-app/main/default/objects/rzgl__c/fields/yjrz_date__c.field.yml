@@ -1,0 +1,4 @@
+name: yjrz_date__c
+label: 预计入职日期
+sort_no: 150
+type: date

@@ -1,0 +1,4 @@
+name: phone__c
+label: 手机号
+sort_no: 140
+type: text

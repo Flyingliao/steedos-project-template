@@ -1,0 +1,39 @@
+name: biglayout
+buttons:
+  - button_name: standard_new
+  - button_name: standard_edit
+  - button_name: standard_delete
+  - button_name: ruzhi
+  - button_name: standard_approve
+  - button_name: standard_view_instance
+fields:
+  - field_name: name
+    is_required: true
+  - field_name: yg_name__c
+  - field_name: zj_type__c
+  - field_name: zj_number__c
+  - field_name: phone__c
+  - field_name: yjrz_date__c
+  - field_name: rz_state__c
+  - field_name: beizhu__c
+  - field_name: instance_state
+    is_readonly: true
+label: 管理员-用户页面布局
+object_name: rzgl__c
+profiles:
+  - admin
+  - user
+related_lists:
+  - related_field_fullname: hmc__c.rzd__c
+    sort_order: asc
+    page_size: 5
+  - related_field_fullname: instances.record_ids
+    field_names:
+      - name
+      - applicant
+      - applicant_organization
+      - modified
+      - state
+    sort_order: asc
+    page_size: 5
+type: record

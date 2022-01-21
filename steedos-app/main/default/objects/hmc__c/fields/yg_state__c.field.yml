@@ -1,0 +1,11 @@
+name: yg_state__c
+label: 员工状态
+options:
+  - label: 试用
+    value: 试用
+  - label: 正式
+    value: 正式
+  - label: 离职
+    value: 离职
+sort_no: 150
+type: select

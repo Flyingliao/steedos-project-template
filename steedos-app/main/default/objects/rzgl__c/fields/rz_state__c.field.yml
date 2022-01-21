@@ -1,0 +1,11 @@
+name: rz_state__c
+label: 入职状态
+options:
+  - label: 待入职
+    value: 待入职
+  - label: 已入职
+    value: 已入职
+  - label: 放弃入职
+    value: 放弃入职
+sort_no: 160
+type: select

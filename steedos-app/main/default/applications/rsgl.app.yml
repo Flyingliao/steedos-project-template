@@ -1,0 +1,13 @@
+name: 人事管理
+code: rsgl
+icon_slds: answer_best
+is_creator: true
+is_new_window: false
+is_use_ie: false
+is_use_iframe: false
+mobile: true
+objects:
+  - hmc__c
+  - rzgl__c
+sort: 9100
+visible: true

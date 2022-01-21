@@ -1,0 +1,4 @@
+name: yg_name__c
+label: 员工名称
+sort_no: 110
+type: text

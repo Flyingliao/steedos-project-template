@@ -1,0 +1,5 @@
+name: ruzhi
+is_enable: true
+label: 确认入职
+'on': record_only
+type: script
